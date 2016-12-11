@@ -1,0 +1,51 @@
+#团队
+CREATE TABLE content1 (
+	 int(10) ZEROFILL NOT NULL AUTO_INCREMENT COMMENT '主键',
+	department  varchar(50) NULL COMMENT '部门' ,
+	leader  varchar(50) NULL COMMENT '团组长' ,
+	position  varchar(1500) NULL COMMENT '出访国家/地区' ,
+	days  varchar(50) NULL COMMENT '出访天数' ,
+	teamNumber  varchar(50) NULL COMMENT '团组人数' ,
+	teamPeople  varchar(1500) NULL COMMENT '团组人员姓名' ,
+	rule1  varchar(1500) NULL COMMENT '有无未经批准擅自延长在外停留时间、更改行程、增加出访国家' ,
+	rule2  varchar(1500) NULL COMMENT '是否履行出访经费先行审核手续' ,
+	rule3  varchar(1500) NULL COMMENT '是否提交出访报告' ,
+	process  varchar(1500) NULL COMMENT '简述出访目的、任务、实际行程' ,
+	result  varchar(1500) NULL COMMENT '简述本次出访所取得的直接工作成果' ,
+	influence  varchar(3000) NULL COMMENT '简述本次出访所延伸的潜在影响和成效' ,
+	suggestion  varchar(1500) NULL COMMENT '下一步落实出访合作成果及其他后续工作的对策建议' ,
+	agreement  varchar(1500) NULL COMMENT '团组自评' ,
+	other  varchar(1500) NULL COMMENT '备注' ,
+	addition  varchar(1500) NULL COMMENT '附件' ,
+	url  varchar(100) NULL COMMENT '附件url' ,
+	additionContent  longblob NULL COMMENT '附件二进制数据' ,
+	PRIMARY KEY (`id`)
+)
+	ENGINE=InnoDB
+	DEFAULT CHARACTER SET=utf8
+;
+
+#个人
+CREATE TABLE content2 (
+	id  int(10) ZEROFILL NOT NULL AUTO_INCREMENT ,
+	leader  varchar(50) NULL COMMENT '出访人员姓名' ,
+	department  varchar(100) NULL COMMENT ' 出访人员单位' ,
+	job  varchar(50) NULL COMMENT '出访人员职务' ,
+	position  varchar(100) NULL COMMENT ' 出访国家/地区' ,
+	waste  varchar(1000) NULL COMMENT ' 经费来源（经费卡号）和预计总费用' ,
+	target  varchar(1000) NULL COMMENT ' 出访任务' ,
+	process  varchar(3000) NULL COMMENT '日程安排' ,
+	path  varchar(1000) NULL COMMENT '往返航线' ,
+	fromm  varchar(3000) NULL COMMENT '邀请单位' ,
+	addition  varchar(1000) NULL COMMENT '附件' ,
+	url  varchar(100) NULL COMMENT '附件url' ,
+	additionContent  longblob NULL COMMENT '附件二进制数据' ,
+	PRIMARY KEY (`id`)
+)
+	ENGINE=InnoDB
+	DEFAULT CHARACTER SET=utf8
+;
+
+#清除数据
+#truncate content1 ;
+#truncate content2 ;

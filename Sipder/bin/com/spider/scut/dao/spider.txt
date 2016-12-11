@@ -1,0 +1,37 @@
+#因公出訪相關信息
+CREATE TABLE Event (
+id  int(32) ZEROFILL NOT NULL AUTO_INCREMENT ,
+publishDate  varchar(50) NULL
+teamName  varchar(100) NULL ,
+TargetCountry  varchar(100) NULL ,
+task  varchar(300) NULL ,
+info  varchar(1500) NULL ,
+travel  varchar(1500) NULL ,
+travlePlace  varchar(1500) NULL ,
+fee  varchar(300) NULL ,
+PRIMARY KEY (id)
+)
+ENGINE=InnoDB
+DEFAULT CHARACTER SET=utf8 COLLATE=utf8_general_ci
+;
+
+#出訪團全體成員基本信息
+CREATE TABLE Person (
+id  int(32) NOT NULL AUTO_INCREMENT ,
+name  varchar(30) NULL ,
+department  varchar(100) NULL ,
+job  varchar(100) NULL ;
+date  date NULL ,
+eventId varchar(32) NULL ;
+PRIMARY KEY (id)
+)
+ENGINE=InnoDB
+DEFAULT CHARACTER SET=utf8 COLLATE=utf8_general_ci
+;
+
+
+
+
+#清除数据
+#truncate event0 ;
+#truncate person ;

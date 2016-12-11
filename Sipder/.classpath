@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7">
+		<attributes>
+			<attribute name="owner.project.facets" value="java"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="com.genuitec.runtime.library/com.genuitec.hibernate_4.1">
+		<attributes>
+			<attribute name="owner.project.facets" value="me.hibernate"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="lib/mysql-connector-java-5.1.16.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="../lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="D:/maven/repository/org/jsoup/jsoup/1.8.3/jsoup-1.8.3.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/poi"/>
+	<classpathentry kind="lib" path="D:/work/picture/TPic/WebRoot/WEB-INF/lib/fastjson-1.2.8.jar"/>
+	<classpathentry kind="lib" path="D:/work/picture/TPic/WebRoot/WEB-INF/lib/fastjson-1.2.8-sources.jar"/>
+	<classpathentry kind="lib" path="D:/env/crawler4j-3.5-all/crawler4j-3.5/crawler4j-3.5/crawler4j-3.5.jar"/>
+	<classpathentry kind="lib" path="D:/env/crawler4j-3.5-all/crawler4j-3.5/crawler4j-3.5-dependencies/apache-mime4j-core-0.7.jar"/>
+	<classpathentry kind="lib" path="D:/env/crawler4j-3.5-all/crawler4j-3.5/crawler4j-3.5-dependencies/apache-mime4j-dom-0.7.jar"/>
+	<classpathentry kind="lib" path="D:/env/crawler4j-3.5-all/crawler4j-3.5/crawler4j-3.5-dependencies/asm-3.1.jar"/>
+	<classpathentry kind="lib" path="D:/env/crawler4j-3.5-all/crawler4j-3.5/crawler4j-3.5-dependencies/boilerpipe-1.1.0.jar"/>
+	<classpathentry kind="lib" path="D:/env/crawler4j-3.5-all/crawler4j-3.5/crawler4j-3.5-dependencies/geronimo-stax-api_1.0_spec-1.0.1.jar"/>
+	<classpathentry kind="lib" path="D:/env/crawler4j-3.5-all/crawler4j-3.5/crawler4j-3.5-dependencies/httpclient-4.2.3.jar"/>
+	<classpathentry kind="lib" path="D:/env/crawler4j-3.5-all/crawler4j-3.5/crawler4j-3.5-dependencies/httpcore-4.2.2.jar"/>
+	<classpathentry kind="lib" path="D:/env/crawler4j-3.5-all/crawler4j-3.5/crawler4j-3.5-dependencies/je-4.0.92.jar"/>
+	<classpathentry kind="lib" path="D:/env/crawler4j-3.5-all/crawler4j-3.5/crawler4j-3.5-dependencies/metadata-extractor-2.4.0-beta-1.jar"/>
+	<classpathentry kind="lib" path="D:/env/crawler4j-3.5-all/crawler4j-3.5/crawler4j-3.5-dependencies/tagsoup-1.2.1.jar"/>
+	<classpathentry kind="lib" path="D:/env/crawler4j-3.5-all/crawler4j-3.5/crawler4j-3.5-dependencies/tika-core-1.0.jar"/>
+	<classpathentry kind="lib" path="D:/env/crawler4j-3.5-all/crawler4j-3.5/crawler4j-3.5-dependencies/tika-parsers-1.0.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
